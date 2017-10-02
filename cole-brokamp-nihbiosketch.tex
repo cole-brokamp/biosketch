@@ -5,7 +5,7 @@
 
 \name{Brokamp, Cole}
 \eracommons{brokampr}
-\position{Research Fellow}
+\position{Assistant Professor}
 
 \begin{document}
 %------------------------------------------------------------------------------
@@ -13,7 +13,7 @@
 \begin{education}
 University of Cincinnati  & B.S           & 06/2010  & Biomedical Engineering \\
 University of Cincinnati               & Ph.D.         & 04/2016  & Biostatistics and Bioinformatics \\
-Cincinnati Children's Hospital Medical Center  & Postdoctoral Research Fellow  & present  & Biostatistics and Epidemiology \\
+Cincinnati Children's Hospital Medical Center  & Postdoctoral Research Fellow  & 10/2017  & Biostatistics and Epidemiology \\
 \end{education}
 
 
@@ -43,7 +43,8 @@ infinitesimal jackknife. arXiv preprint arXiv:1706.06150.  2017.
 \subsection*{Positions and Employment}
 \begin{datetbl}
 2010--2016  & Graduate Research Assistant, University of Cincinnati\\
-2016--  & Research Fellow, Cincinnati Children's Hospital Medical Center\\
+2016--2017  & Research Fellow, Cincinnati Children's Hospital Medical Center\\
+2017--      & Assistant Professor, Cincinnati Children's Hospital Medical Center\\
 \end{datetbl}
 
 \subsection*{Honors}
@@ -59,30 +60,63 @@ infinitesimal jackknife. arXiv preprint arXiv:1706.06150.  2017.
 
 \section{Contribution to Science}
 
-I recently applied machine learning methods to estimate the exposure of children to different types of air pollution and quantified its effects on their respiratory and mental health. Specifically, I created a novel land use random forest model (LURF) and showed that it was more accurate and precise than traditional land use regression models. This work has been implemented into an R package that helps researchers to extract statistical inferences from random forests, as well as to aid users in the application and visualization of big spatial data.\\
+\begin{enumerate}
 
-\noindent Related Publications:
+
+\item The main aim of my early career work has been to develop exposure assessment models for airborne pollutants based on machine learning techniques.  Specifically, applying random forest to land use models lead to higher accuracy and precision of air pollution exposure assessment by elucidating complex interactions and nonlinear relationships between land use predictors and pollutant concentrations. This work includes the first machine learning or ensemble model used to assess exposure to elemental components of particulate matter. Recent introduction of remote sensing satellite data has allowed for extension of the land use random forest model to produce daily estimates of air pollution from 2000 - 2015 at a resolution of 1 x 1 km across the Greater Cincinnati area.
 
 \begin{enumerate}
 	
-\item \textbf{Cole Brokamp}, Roman Jandarov, MB Rao, Grace LeMasters, Patrick Ryan. Exposure assessment models for elemental components of particulate matter in an urban environment: A comparison of regression and random forest approaches. Atmospheric Environment. 151. 1-11. 2017.
+	\item \textbf{Cole Brokamp}, Roman Jandarov, MB Rao, Grace LeMasters, Patrick Ryan. Exposure assessment models for elemental components of particulate matter in an urban environment: A comparison of regression and random forest approaches. Atmospheric Environment. 151. 1-11. 2017.
 
-\item Kelly J Brunst, Patrick H Ryan, \textbf{Cole Brokamp}, David Bernstein, Tiina Reponen, James Lockey, Gurjit K Khurana Hershey, Linda Levin, Sergey A Grinshpun, Grace LeMasters. Timing and duration of traffic-related air pollution exposure and the risk for childhood wheeze and asthma. American Journal of Respiratory and Critical Care Medicine. 192(4). 421-427. 2015.
-
-\item Jennifer Kannan, \textbf{Cole Brokamp}, David I. Bernstein, Grace K. LeMasters, Gurjit K. Khurana Hershey, Manuel Villareal, James E. Lockey, Patrick Ryan. Parental Snoring and Environmental Pollutants, but Not Aeroallergen Sensitization, Are Associated with Childhood Snoring in a Birth Cohort. Pediatric Allergy, Immunology, and Pulmonology. 0. 2016.
+	\item \textbf{Cole Brokamp}, Roman Jandarov, Monir Hossain, Patrick Ryan. Predicting Daily Exposure to Urban Fine Particulate Matter at a High Spatial Resolution. \emph{In Preparation}.
 
 \end{enumerate}
 
-\noindent Related Software:
+\item The work in developing LURF methods has helped me gain expertise in geospatial computing.  Along with other collaborators, I have applied these geospatial techniques to analyze the effect on health of other environmental exposures such as combined sewer overflows, elemental components of particulate matter, greenspace, and ozone.
+
+\begin{enumerate}
+	
+	\item \textbf{Cole Brokamp}, Andrew F. Beck, Louis Muglia, Patrick Ryan. Combined Sewer Overflow Events and Childhood Emergency Department Visits: A Case-Crossover Study. \emph{Science of the Total Environment}. 607-608. 1180-1187. 2017.
+	
+	\item Lusine Yaghjyan, R Aroa, \textbf{Cole Brokamp}, E O'Meara, B Sprague, G Ghita, Patrick Ryan. Association of air pollution with mammographic breast density in the Breast Cancer Surveillance Consortium. \emph{Breast Cancer Research}. 19:36. 1-10. 2017.
+	
+	\item \textbf{Cole Brokamp}, MB Rao, Tina Zhihua Fan, Patrick H Ryan. Does the elemental composition of indoor and outdoor PM2.5 accurately represent the elemental composition of personal PM2.5?. \emph{Atmospheric Environment}. 101. 226-234. 2015.
+	
+	\item Rebecca Gernes, \textbf{Cole Brokamp}, Glenn Rice, J. Michael Wright,
+	Michelle Kondo, Yvonne Michael, Geoffrey Donovan, Demetrios Gatziolis,
+	David Bernstein, Grace LeMasters, James Lockey, G. Khurana Hershey,
+	Patrick Ryan. Using medium- and high-resolution residential greenspace
+	measures to assess risks of allergy outcomes in a cohort of children
+	residing near Cincinnati, Ohio. \emph{Under Review}.
+	
+\end{enumerate}
+
+\item Collaborating with other researchers wishing to use geospatial characteristics of research participants within existing cohorts and multisite studies has highlighted the significant need for a reproducible and distributed method for extracting place-based information from a residential address while maintaining the privacy of protected health information. I recently developed a novel approach and accompanying software package called DeGAUSS which overcomes overcomes the multiple challenges in the use of address data in multi-site studies and also serves as a more general reproducible research tool for geocoding and geomarker assessment. This approach is currently being implemented in a wide variety of environmental health studies across a wide geographic region.
 
 \begin{enumerate}
 
-\item Cole Brokamp. (2016, November 3). cole-brokamp/aiRpollution 0.2. Zenodo. \url{http://doi.org/10.5281/zenodo.164697}.
-
-\item Cole Brokamp. (2016, June 10). cole-brokamp/RFinfer 0.2. Zenodo. \url{http://doi.org/10.5281/zenodo.50879}.
+	\item \textbf{Cole Brokamp}, Chris Wolfe, Todd Lingren, John Harley, Patrick Ryan. Decentralized and Reproducible Geocoding and Characterization of Community and Environmental Exposures for Multi-Site Studies. \emph{Under Review}.
+	
+	\item Rhonda D. Szczesniak, Dan Li, Weiji Su, \textbf{Cole Brokamp}, John Pestian, Michael Seid, John P. Clancy. Phenotypes of Rapid Cystic Fibrosis Lung Disease Progression during Adolescence and Young Adulthood. \emph{American Journal of Respiratory And Critical Care Medicine}. \emph{In Press}.
+	
+	\item Rhonda Szczesniak, \textbf{Cole Brokamp}, Weiji Su, Gary L. McPhail, John Pestian, John P. Clancy. Early Detection of Rapid Cystic Fibrosis Disease Progression Tailored to Point of Care: A Proof-of-Principle Study. \emph{Under Review}.
 
 \end{enumerate}
 
+\item As a trained biostatistician, I also have a general interest in collaborating with others and often use my expertise in spatial statistics to study the effect of place-based characteristics on health outcomes.
+
+\begin{enumerate}
+
+	\item Kelly J Brunst, Patrick H Ryan, \textbf{Cole Brokamp}, David Bernstein, Tiina Reponen, James Lockey, Gurjit K Khurana Hershey, Linda Levin, Sergey A Grinshpun, Grace LeMasters. Timing and duration of traffic-related air pollution exposure and the risk for childhood wheeze and asthma. American Journal of Respiratory and Critical Care Medicine. 192(4). 421-427. 2015.
+
+	\item Jennifer Kannan, \textbf{Cole Brokamp}, David I. Bernstein, Grace K. LeMasters, Gurjit K. Khurana Hershey, Manuel Villareal, James E. Lockey, Patrick Ryan. Parental Snoring and Environmental Pollutants, but Not Aeroallergen Sensitization, Are Associated with Childhood Snoring in a Birth Cohort. Pediatric Allergy, Immunology, and Pulmonology. 0. 2016.
+	
+	\item Andrew F. Beck, Carley L. Riley, Stuart Taylor, \textbf{Cole Brokamp}, Robert S. Kahn. Toward a Culture of Health in Hospitals: Pervasive population disparities in inpatient bed-day rates across conditions and subspecialties. \emph{Under Review}.
+
+\end{enumerate}
+
+\end{enumerate}
 
 \subsection*{Complete List of Published Work in MyBibliography:} 
 \url{https://www.ncbi.nlm.nih.gov/myncbi/browse/collection/49821426}
@@ -93,6 +127,23 @@ I recently applied machine learning methods to estimate the exposure of children
 \section{Research Support}
 
 \subsection*{Ongoing Research Support}
+
+\bigskip
+
+\textbf{Internal Processes and Methods Award - Center for Clinical \&
+	Translational Science \& Training}\\
+\emph{Using Machine Learning to Supplement Electronic Health Record
+	databases with Individual Socioeconomic Status}\\
+Brokamp, PI (9/1/17 - 12/31/17)\\
+Retrospective epidemiological studies are often created using electronic
+health record databases. Although these records are ``wide'', they are
+not ``deep'' with respect to individual level demographic data. We
+propose a novel machine learning based approach that uses open city and
+auditor databases to predict individual level income and family
+socioeconomic status. This will solve the urgent problem of
+unconfounding for individual SES in the execution of EHR based
+research.\\
+Role: PI
 
 \bigskip
 
@@ -176,6 +227,18 @@ Role: Biostatistician
 
 \bigskip
 
+\textbf{Internal Arnold W. Strauss Fellowship Award - Cincinnati
+	Children's Hospital}\\
+\emph{Assessing Exposure to Air Pollution Across Time and Space}\\
+Brokamp, PI (7/1/16 - 6/30/17)\\
+The primary objective of this award is to combine satellite-based
+measurements, land use characteristics, and meteorologic data to create
+a hybrid spatiotemporal model for ground level exposure to particulate
+matter using exact addresses and dates.\\
+Role: PI
+
+\bigskip
+
 \textbf{Internal Processes and Methods Award - Center for Clinical \&
 	Translational Science \& Training}\\
 \emph{Validating a Geocoding Approach for Multi Site Studies}\\
@@ -190,15 +253,13 @@ Role: PI
 
 \bigskip
 
-\textbf{Internal Arnold W. Strauss Fellowship Award - Cincinnati
-	Children's Hospital}\\
-\emph{Assessing Exposure to Air Pollution Across Time and Space}\\
-Brokamp, PI (7/1/16 - 6/30/17)\\
-The primary objective of this award is to combine satellite-based
-measurements, land use characteristics, and meteorologic data to create
-a hybrid spatiotemporal model for ground level exposure to particulate
-matter using exact addresses and dates.\\
-Role: PI
+\textbf{Academy Health}\\
+\emph{Community Health Peer Learning Program: Participant Community}\\
+Beck, PI (2/1/16 - 6/30/17)\\
+The goals of this project are to reduce by 10\% the inpatient bed-day
+rate for one high risk neighborhood in Cincinnati through interventions
+promoted by shared data and improved data visualization.\\
+Role: Biostatistician
 
 \bigskip
 
@@ -217,12 +278,14 @@ Role: Biostatistician
 
 \bigskip
 
-\textbf{Academy Health}\\
-\emph{Community Health Peer Learning Program: Participant Community}\\
-Beck, PI (2/1/16 - 6/30/17)\\
-The goals of this project are to reduce by 10\% the inpatient bed-day
-rate for one high risk neighborhood in Cincinnati through interventions
-promoted by shared data and improved data visualization.\\
+\textbf{Gerber Pediatric Research Grant, Gerber Foundation}\\
+\emph{Clinical Prediction Model for Community-Acquired Pneumonia}\\
+Florin, PI (1/1/14 - 12/31/16)\\
+This project will use clinical data and the biomarker procalcitonin to
+develop a severity score used to predict the development of severe
+disease and complications in children with community-acquired pneumonia,
+the most common serious bacterial infection children and leading killer
+of children worldwide.\\
 Role: Biostatistician
 
 
