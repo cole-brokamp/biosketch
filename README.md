@@ -1,5 +1,5 @@
-# cole-brokamp-nihbiosketch
+# biosketch
 
-NIH style biosketch
+[NIH-style biosketch](cole-brokamp-nihbiosketch.pdf)
 
-Based on https://github.com/pmagwene/latex-nihbiosketch
+[Other Support](Other Support Brokamp.docx)
